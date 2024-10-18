@@ -8,5 +8,6 @@ namespace EjMysqlC.models
 {
     class Film
     {
+        private string titulo;
     }
 }
