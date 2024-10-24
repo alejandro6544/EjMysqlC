@@ -123,6 +123,12 @@
     <Compile Include="views\UIFilms.Designer.cs">
       <DependentUpon>UIFilms.cs</DependentUpon>
     </Compile>
+    <Compile Include="views\UIUpdateCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\UIUpdateCategory.Designer.cs">
+      <DependentUpon>UIUpdateCategory.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -137,6 +143,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="views\UIFilms.resx">
       <DependentUpon>UIFilms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\UIUpdateCategory.resx">
+      <DependentUpon>UIUpdateCategory.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

@@ -17,7 +17,7 @@ namespace EjMysqlC
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new UIFilms() /*UICategory()*/ /*Form1()*/);
+            Application.Run(new UIUpdateCategory() /*UIFilms()*/ /*UICategory()*/ /*Form1()*/);
         }
     }
 }

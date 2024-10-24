@@ -32,6 +32,14 @@ namespace EjMysqlC.controllers
             return listac;
         }
 
+        internal bool UpDateCategory(string nameCategory, int id_category)
+        {
+            bool result=false;
 
+            string sql = "update category set name='"+ nameCategory+ "' where category_id="+ id_category;
+            ConnectionBD objBD = new ConnectionBD();
+            result = objBD.ExecuteQuery(sql);
+            return result;
+        }
     }
 }
