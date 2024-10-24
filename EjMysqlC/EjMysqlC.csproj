@@ -99,6 +99,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="controllers\ControllerCategory.cs" />
+    <Compile Include="controllers\ControllerCustomer.cs" />
     <Compile Include="controllers\ControllerFilmcs.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -108,6 +109,7 @@
     </Compile>
     <Compile Include="models\Category.cs" />
     <Compile Include="models\ConnectionBD.cs" />
+    <Compile Include="models\Customer.cs" />
     <Compile Include="models\Film.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -116,6 +118,12 @@
     </Compile>
     <Compile Include="views\UICategory.Designer.cs">
       <DependentUpon>UICategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\UIConsultas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\UIConsultas.Designer.cs">
+      <DependentUpon>UIConsultas.cs</DependentUpon>
     </Compile>
     <Compile Include="views\UIFilms.cs">
       <SubType>Form</SubType>
@@ -140,6 +148,9 @@
     </Compile>
     <EmbeddedResource Include="views\UICategory.resx">
       <DependentUpon>UICategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\UIConsultas.resx">
+      <DependentUpon>UIConsultas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="views\UIFilms.resx">
       <DependentUpon>UIFilms.cs</DependentUpon>
