@@ -101,6 +101,7 @@
     <Compile Include="controllers\ControllerCategory.cs" />
     <Compile Include="controllers\ControllerCustomer.cs" />
     <Compile Include="controllers\ControllerFilmcs.cs" />
+    <Compile Include="controllers\ControllerStaff.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,8 +112,15 @@
     <Compile Include="models\ConnectionBD.cs" />
     <Compile Include="models\Customer.cs" />
     <Compile Include="models\Film.cs" />
+    <Compile Include="models\Staff.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="views\UIAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\UIAdmin.Designer.cs">
+      <DependentUpon>UIAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="views\UICategory.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,11 +139,23 @@
     <Compile Include="views\UIFilms.Designer.cs">
       <DependentUpon>UIFilms.cs</DependentUpon>
     </Compile>
+    <Compile Include="views\UILogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\UILogin.Designer.cs">
+      <DependentUpon>UILogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="views\UIUpdateCategory.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="views\UIUpdateCategory.Designer.cs">
       <DependentUpon>UIUpdateCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="views\UIUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="views\UIUser.Designer.cs">
+      <DependentUpon>UIUser.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -146,6 +166,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="views\UIAdmin.resx">
+      <DependentUpon>UIAdmin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="views\UICategory.resx">
       <DependentUpon>UICategory.cs</DependentUpon>
     </EmbeddedResource>
@@ -155,8 +178,14 @@
     <EmbeddedResource Include="views\UIFilms.resx">
       <DependentUpon>UIFilms.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="views\UILogin.resx">
+      <DependentUpon>UILogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="views\UIUpdateCategory.resx">
       <DependentUpon>UIUpdateCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="views\UIUser.resx">
+      <DependentUpon>UIUser.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

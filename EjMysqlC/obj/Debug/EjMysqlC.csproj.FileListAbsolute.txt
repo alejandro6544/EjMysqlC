@@ -88,3 +88,8 @@ E:\Documents\Visual Studio 2019\Proyectos\EjMysqlC\EjMysqlC\obj\Debug\EjMysqlC.e
 E:\Documents\Visual Studio 2019\Proyectos\EjMysqlC\EjMysqlC\obj\Debug\EjMysqlC.pdb
 E:\Documents\Visual Studio 2019\Proyectos\EjMysqlC\EjMysqlC\obj\Debug\EjMysqlC.views.UIUpdateCategory.resources
 E:\Documents\Visual Studio 2019\Proyectos\EjMysqlC\EjMysqlC\obj\Debug\EjMysqlC.views.UIConsultas.resources
+C:\Users\pc\Documents\Visual Studio 2019\EJ2024_03\EjMysqlC\EjMysqlC\obj\Debug\EjMysqlC.views.UIConsultas.resources
+C:\Users\pc\Documents\Visual Studio 2019\EJ2024_03\EjMysqlC\EjMysqlC\obj\Debug\EjMysqlC.views.UIUpdateCategory.resources
+C:\Users\pc\Documents\Visual Studio 2019\EJ2024_03\EjMysqlC\EjMysqlC\obj\Debug\EjMysqlC.views.UILogin.resources
+C:\Users\pc\Documents\Visual Studio 2019\EJ2024_03\EjMysqlC\EjMysqlC\obj\Debug\EjMysqlC.views.UIAdmin.resources
+C:\Users\pc\Documents\Visual Studio 2019\EJ2024_03\EjMysqlC\EjMysqlC\obj\Debug\EjMysqlC.views.UIUser.resources
